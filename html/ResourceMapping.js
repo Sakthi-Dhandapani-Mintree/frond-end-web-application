@@ -182,6 +182,7 @@ function enableSubmit(){
 }
 
 function getDetails(){
+alert("Hello");
 	document.getElementById("button1").disabled = true;
 	var idorName = document.forms["form2"]["midName"].value;
 	$.ajax({
