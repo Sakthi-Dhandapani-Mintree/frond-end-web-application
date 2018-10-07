@@ -1,0 +1,3 @@
+teps:
+- name: gcr.io/cloud-builders/git
+  args: ['push', 'https://source.developers.google.com/p/$PROJECT_ID/r/myrepo', 'cert']
